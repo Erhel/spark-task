@@ -6,9 +6,14 @@ Both methods calculate average delay time for every type of unit that use Advanc
 
 ## For DataFrame:
 ![image](https://user-images.githubusercontent.com/32685300/147750704-1557e9f6-bd66-4b36-8121-0b79007874a5.png)
+
+![image](https://user-images.githubusercontent.com/32685300/147752507-509d14a1-e5ee-43ab-a32a-7d3a4a842217.png)
 ![image](https://user-images.githubusercontent.com/32685300/147752051-d79b819f-8e34-4212-8d53-9bd66bc5b300.png)
 
 
 ## For RDD:
 ![image](https://user-images.githubusercontent.com/32685300/147751742-06b7057c-4046-42a1-984d-1a01028dc9ae.png)
-![image](https://user-images.githubusercontent.com/32685300/147752218-26bce2ec-27f7-4aa8-aad6-852078ca9d03.png)
+
+![image](https://user-images.githubusercontent.com/32685300/147752594-c8aeb100-49cc-4b15-87d7-3af47aff31c7.png)
+![image](https://user-images.githubusercontent.com/32685300/147752609-14fe2970-c6f9-4dcf-9938-529a819c1e71.png)
+
