@@ -37,6 +37,7 @@ schema = StructType([
 
 raw_dataframe = spark.read.csv("data.csv", header=True, schema=schema)
 
-dataframe = raw_dataframe.filter(col("ALSUnit") == True).select("UnitType", "Delay").groupBy("UnitType").agg(avg("Delay").alias("AverageDelay")).filter(col("AverageDelay") < 4)
+dataframe = raw_dataframe.filter(col("ALSUnit") == True).select("UnitType", "Delay").groupBy("UnitType").agg(avg("Delay").alias("AverageDelay")).sort(col("AverageDelay"))
 
-dataframe.show()
+dataframe.collect()
+input()
